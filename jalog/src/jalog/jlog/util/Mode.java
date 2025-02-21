@@ -134,6 +134,7 @@ public class Mode {
    public static final Mode SSTV     = new Mode("SSTV") ;
    public static final Mode THRB     = new Mode("THRB") ;
    public static final Mode TOR      = new Mode("TOR") ;
+   public static final Mode P25      = new Mode("P25") ;
    
    private static final Mode _values[] = {
       Blank,
@@ -171,7 +172,8 @@ public class Mode {
       RTTY,
       SSTV,
       // THRB,
-      TOR
+      TOR,
+      P25
    } ;
 
    /**
